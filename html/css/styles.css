@@ -1,0 +1,65 @@
+.clearfix {
+  display: block;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+}
+.left,
+.right {
+  width: 50%;
+  float: left;
+}
+.parent {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-top: 3px;
+  width: 434px;
+}
+button.add-more {
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+button.delete-this,
+button.delete {
+  margin: 2px 0 0 2px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+button.add-child {
+  color: white;
+  background-color: grey;
+  border-radius: 5px;
+}
+.child {
+  margin-top: 3px;
+  border: 1px solid yellow;
+  border-radius: 3px;
+}
+.specification {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+span.specificationTitle {
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  display: block;
+  margin-top: 3px;
+  border-left: none;
+  border-right: none;
+  color: red;
+}
+span.specificationValue1,
+span.specificationValue2 {
+  border: 1px solid grey;
+  display: block;
+  display: inline-block;
+  width: 49.4%;
+  color:green;
+}
